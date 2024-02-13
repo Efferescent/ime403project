@@ -7,6 +7,10 @@ Team Project Email:
 IME403Project@gmail.com
 IME403Project***
 
+OpenAI Account:
+IME403Project@gmail.com
+Lkdjfhguf857*
+
 
 1. Create Simple Extension
 2. Convene
