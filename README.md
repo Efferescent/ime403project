@@ -3,6 +3,9 @@
 hi this is Aidan
 hi this is mackenzie
 
+# Chrome Extension Website 
+chrome://extensions/
+
 # Team Project Email:  </br >
 User: IME403Project@gmail.com  </br >
 Password: IME403Project***    </br >
