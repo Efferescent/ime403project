@@ -23,6 +23,10 @@ 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
 
 This is Ashley- In the chatgpt summary files, its incomplete. in the popup.js file theres a section where we need to "// Replace the following with the code to interact with ChatGPT for summarization". We need to according to chatgpt: "Interacting with ChatGPT for summarization typically involves making an API call. Since OpenAI provides a GPT API, you would need to obtain the API key from OpenAI and use it to send requests. Below is a basic example using the fetch API to make a request to the OpenAI GPT API. Note that you'll need to replace 'YOUR_API_KEY' with your actual OpenAI API key." and use this code: 
 
+
+
+
+
 document.addEventListener('DOMContentLoaded', function () {
   document.getElementById('summarizeButton').addEventListener('click', function () {
     summarizeText();
@@ -38,7 +42,7 @@ async function summarizeText() {
   }
 
   try {
-    const apiKey = 'YOUR_API_KEY';
+    const apiKey = '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';
     const response = await fetch('https://api.openai.com/v1/engines/davinci-codex/completions', {
       method: 'POST',
       headers: {
