@@ -4,13 +4,18 @@ hi this is Aidan
 hi this is mackenzie
 
 Team Project Email:
+
 IME403Project@gmail.com
 IME403Project***
 
 OpenAI Account:
+
 IME403Project@gmail.com
 Lkdjfhguf857*
 
+Key:
+
+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
 
 1. Create Simple Extension
 2. Convene
