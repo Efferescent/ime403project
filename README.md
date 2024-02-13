@@ -3,6 +3,11 @@
 hi this is Aidan
 hi this is mackenzie
 
+Team Project Email:
+IME403Project@gmail.com
+IME403Project***
+
+
 1. Create Simple Extension
 2. Convene
 3. Segment Project
