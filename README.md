@@ -1,21 +1,21 @@
-# ime403project
+# IME 403 Project
 
 hi this is Aidan
 hi this is mackenzie
 
-Team Project Email:
+# Team Project Email:  </br >
+User: IME403Project@gmail.com  </br >
+Password: IME403Project***    </br >
 
-IME403Project@gmail.com
-IME403Project***
+# OpenAI Account:   </br >
+User: IME403Project@gmail.com </br >
+Password: Lkdjfhguf857*       </br >
 
-OpenAI Account:
-
-IME403Project@gmail.com
-Lkdjfhguf857*
-
-Key:
-
+# Key:
 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
+
+
+# Timeline: 
 
 1. Create Simple Extension
 2. Convene
