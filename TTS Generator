@@ -1,0 +1,50 @@
+document.addEventListener('DOMContentLoaded', function () {
+    document.getElementById('scrapeAndSpeakButton').addEventListener('click', function () {
+        scrapeAndSpeakText();
+    });
+});
+
+async function scrapeAndSpeakText() {
+    try {
+        // Scraping the website to get the text
+        const websiteURL = 'https://example.com'; // Replace with the URL of the website you want to scrape
+        const response = await fetch(websiteURL);
+        const html = await response.text();
+        const text = extractTextFromHTML(html);
+
+        // Speaking the extracted text
+        speakText(text);
+    } catch (error) {
+        console.error('Error scraping website or speaking text:', error);
+        alert('Error scraping website or speaking text. Please try again.');
+    }
+}
+
+function extractTextFromHTML(html) {
+    // Extract text from HTML using DOM manipulation, regular expressions, or any other method
+    // For demonstration, let's use a simple regex to extract text between <p> tags
+    const textRegex = /<p>(.*?)<\/p>/g;
+    let match;
+    let extractedText = '';
+
+    while ((match = textRegex.exec(html)) !== null) {
+        extractedText += match[1] + ' ';
+    }
+
+    return extractedText.trim();
+}
+
+function speakText(text) {
+    // Using SpeechSynthesis API to convert text to speech
+    const speechSynthesis = window.speechSynthesis;
+    const speech = new SpeechSynthesisUtterance(text);
+
+    // Uncomment the following line if you want the speech to start immediately
+    // speechSynthesis.speak(speech);
+
+    // Optional: You can set properties of the speech object such as voice, rate, pitch, etc.
+    // Example:
+    // speech.voice = speechSynthesis.getVoices()[0]; // Change index to select a different voice
+    // speech.rate = 1; // Rate of speech (0.1 to 10)
+    // speech.pitch = 1; // Pitch of speech (0 to 2)
+}
