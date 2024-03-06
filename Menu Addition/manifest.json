@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Text to Speech",
+  "version": "1.0",
+  "description": "Converts text to speech.",
+  "action": {
+    "default_popup": "menu.html"
+  },
+  "permissions": ["activeTab", "tts"]
+}
+
+  

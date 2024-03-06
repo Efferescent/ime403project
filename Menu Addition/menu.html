@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Text Magic Homepage</title>
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet"> <!-- Include type writer font -->
+  <style>
+    body {
+      width: 150px;
+      padding: 10px;
+      position: relative;
+      font-family: 'Permanent Marker', cursive; /* Apply type writer font */
+      text-align: center; /* Center-align all content */
+    }
+    h1 {
+      font-size: 24px; /* Adjust title font size */
+      margin-bottom: 20px; /* Add space below title */
+    }
+    button {
+      width: calc(100% - 20px); /* Adjust button width to fit within the menu */
+      padding: 1px;
+      margin-top: 10px;
+      background-color: purple; /* Set button background color to purple */
+      color: white; /* Set text color to white */
+      border: none; /* Remove button border */
+      cursor: pointer; /* Change cursor to pointer on hover */
+      font-family: 'Permanent Marker', cursive; /* Apply type writer font to buttons */
+    }
+    /* Style for the "Info" button */
+    #info {
+      position: absolute;
+      bottom: 90px; /* Adjust vertical position */
+      left: 5px; /* Adjust horizontal position */
+      padding: 1px; /* Adjust padding */
+      font-size: 8px; /* Adjust font size */
+      font-family: 'Permanent Marker', cursive; /* Apply type writer font to info button */
+    }
+    /* Style for the "Summarizer" button */
+    #goToSummarizer {
+      position: relative; /* Adjust button positioning */
+    }
+  </style>
+</head>
+<body>
+  <h1>Text Magic Homepage</h1>
+  <button id="goToTextToSpeech">Go to Text to Speech</button>
+  <button id="goToSummarizer">Go to Summarizer</button>
+  <button id="info">Info</button>
+  <script src="menu.js"></script>
+</body>
+</html>
+
