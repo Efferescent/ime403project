@@ -8,7 +8,8 @@ How to download extension (pre web store):
 How to download extension (post web store):
 
 1. Search 'Homework Helper' on Google Chrome Web Store
-2. 
+2. Download Extension
+3. Click icon on top right corner to open extension
 
 
 How to use the extension:
