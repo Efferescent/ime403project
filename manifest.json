@@ -1,21 +1,36 @@
 {
     "manifest_version": 3,
-    "name": "Text to Speech",
+    "name": "Cycle Timer",
     "version": "1.0",
-    "description": "Converts text to speech.",
+    "description": "A timer that cycles between 20 minutes and 5 minutes intervals.",
+    "permissions": [
+      "alarms", 
+      "storage", 
+      "webRequest",
+      "activeTab",
+      "notifications",
+      "tts"],
+    "web_accessible_resources": [
+      {
+        "resources": ["popup.html", "pomodoro.html"],
+        "matches": ["<all_urls>"]
+      }
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
     "action": {
-      "default_popup": "popup.html",
+      "default_popup": "menu.html",
       "default_icon": {
-        "16": "images/icon128.png",
-        "48": "images/icon128.png",
-        "128": "images/icon128.png"
+        "16": "images/icon.png",
+        "48": "images/icon.png",
+        "128": "images/icon.png"
       }
     },
-    "permissions": ["activeTab", "tts"],
     "icons": {
-      "16": "images/icon128.png",
-      "48": "images/icon128.png",
-      "128": "images/icon128.png"
+      "16": "images/icon.png",
+      "48": "images/icon.png",
+      "128": "images/icon.png"
     }
   }
   
