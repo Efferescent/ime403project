@@ -2,7 +2,7 @@ document.getElementById('goToTextToSpeech').addEventListener('click', function()
     chrome.tabs.create({url: 'popup.html'});
   });
   
-  document.getElementById('goToSummarizer').addEventListener('click', function() {
+  document.getElementById('goToTimer').addEventListener('click', function() {
     chrome.tabs.create({url: 'pomodoro.html'});
   });
   

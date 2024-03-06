@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "Cycle Timer",
+    "name": "Focus Time",
     "version": "1.0",
-    "description": "A timer that cycles between 20 minutes and 5 minutes intervals.",
+    "description": "A tool that functions as a Pomodoro timer with notifications and a Text-To-Speech tool.",
     "permissions": [
       "alarms", 
       "storage", 
